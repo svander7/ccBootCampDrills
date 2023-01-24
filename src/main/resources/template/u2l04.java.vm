@@ -1,0 +1,26 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L03int() {
+		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
+		
+		assertEquals(Integer.MIN_VALUE, Integer.MAX_VALUE + $one); // this might not be obvious if you didn't pay attention to Trevor's video
+		assertTrue(Long.class.isInstance($three));
+		assertTrue(Long.class.isInstance($four));
+		assertEquals(minLong, Long.MIN_VALUE);
+		assertEquals(maxLong, Integer.MAX_VALUE);
+		assertEquals(12_345_678_901L, $two);
+		assertEquals(54L, $five - $six);
+	}
+
+}
