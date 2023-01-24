@@ -20,6 +20,9 @@ public class U2L13 extends GenBase {
         this.context.put("three", Names.randomName().toLowerCase());
         this.context.put("four", Names.randomName().toLowerCase());
         this.context.put("five", Names.randomName().toLowerCase());
+        this.context.put("six", Names.randomName().toLowerCase());
+        this.context.put("seven", Names.randomName().toLowerCase());
+        this.context.put("eight", Names.randomName().toLowerCase());
         this.context.put("ClassName", this.genMetaList.get(defaultPosition).getName());
         this.context.put("package", this.genMetaList.get(defaultPosition).getPakage());
         merge( null);

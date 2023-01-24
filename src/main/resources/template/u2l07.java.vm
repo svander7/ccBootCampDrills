@@ -13,9 +13,19 @@ class $ClassName {
 	@Test
 	void testU2L07() {
 		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
+		String $four = "Every good boy does fine";
+		String $six = "I went up the hill 19 times";
+		String $eight = " times";
 		
-		assertTrue(Integer.class.isInstance($one));
-		assertEquals(minInt, Integer.MIN_VALUE);
+		
+// This one is much more important than others wish I could think of more and better tests
+
+		assertEquals(195, charOne + charTwo);
+		assertTrue(String.class.isInstance($one));
+		assertEquals(7, ${two}.length());
+		assertEquals(18, ${three}.length());
+		assertEquals($four, $five + "fine");
+		assertEquals($six, $seven + 19 + $eight);
 	}
 
 }
