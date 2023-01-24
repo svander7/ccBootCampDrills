@@ -14,8 +14,12 @@ class $ClassName {
 	void testU2L09() {
 		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
 		
-		assertTrue(Integer.class.isInstance($one));
-		assertEquals(minInt, Integer.MIN_VALUE);
+//		int $one = 19;
+//		if($one >= $two ) {
+//			fail("Wrong guess on " + $two);
+//		}else {
+//			System.out.println("Success");
+//		}
 	}
 
 }

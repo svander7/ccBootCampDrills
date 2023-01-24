@@ -14,8 +14,11 @@ class $ClassName {
 	void testU2L11() {
 		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
 		
-		assertTrue(Integer.class.isInstance($one));
-		assertEquals(minInt, Integer.MIN_VALUE);
+		int $one = 17 * 32;
+		String $two = "Every good boy is " + $one;
+		String $three = ""; // fill this in here
+		assertTrue($one==$four);
+		assertTrue( //create a statement here that String $two declared above is an identical or equal string to the $three String variable declared above );
 	}
 
 }
