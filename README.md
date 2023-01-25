@@ -23,7 +23,7 @@ WARNING: This installation is weird (at least for now) in that it requires 2 sib
 These instructions are also demonstrated on [this video](http://hahyouwish.com)
 
 1. git clone [generic-generator](https://github.com/CodersCampus/generic-generator) into your coders campus workspace
-1. git clone this project into your coders campus workspace.
+1. git clone this project into your coders campus workspace. **_SAME FOLDER!_**
 1. Import **Generic-Generator** as an existing maven project.
 1. Run `mvn install` on the pom.xml within that project.
 1. Import **ccBootCampDrills** as an existing maven project.
@@ -76,5 +76,6 @@ No way to know or predict future releases so it is always ideal to `git pull` be
 Should you care about branching this project?
 
 - No, it will not affect your current drills.
+- Drills as generated are gitignored in their normal packages so they are not currently held in the git repo.
 
 But keep an eye on this for future strategies. We expect changes as the scope of this app evolves.
