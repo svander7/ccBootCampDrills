@@ -20,9 +20,9 @@ WARNING: This installation is weird (at least for now) in that it requires 2 sib
 
 #### Sequence
 
-These instructions are also demonstrated on [this video](hah you wish)
+These instructions are also demonstrated on [this video](http://hahyouwish.com)
 
-1. git clone (generic-generator)[https://github.com/CodersCampus/generic-generator] into your coders campus workspace
+1. git clone [generic-generator](https://github.com/CodersCampus/generic-generator) into your coders campus workspace
 1. git clone this project into your coders campus workspace.
 1. Import **Generic-Generator** as an existing maven project.
 1. Run `mvn install` on the pom.xml within that project.
