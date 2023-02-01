@@ -25,7 +25,7 @@ public class App {
 	
 	private void printBranchReminder(String branch) {
 		String message = "IF YOU ARE NOT ON THE " + branch + " BRANCH please terminate this and checkout that branch first!";
-		System.err.println(message);
+//		System.err.println(message);
 	}
 
 }
