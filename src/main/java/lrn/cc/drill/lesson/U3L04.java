@@ -22,17 +22,17 @@ public class U3L04 extends GenBase {
 
     @Override
     public StringWriter generate(StringWriter stringWriter) {
-    	List<String> keys = new ArrayList();
+    	List<String> keys = new ArrayList<String>();
     	keys.add("one");
     	keys.add("two");
     	keys.add("three");
     	keys.add("four");
     	keys.add("five");
-    	List<String> names = new ArrayList();
+    	List<String> names = new ArrayList<String>();
     	while (names.size()<6) {
     		names.add( Names.randomName().toLowerCase());
     	}
-    	List<String> values = new ArrayList();
+    	List<String> values = new ArrayList<String>();
     	while (values.size()<6) {
     		values.add( Names.randomName().toLowerCase());
     	}
@@ -46,7 +46,7 @@ public class U3L04 extends GenBase {
     		someSet.add(all.get(i));
     	}
     	List<Integer> some =  new ArrayList<Integer>(someSet);
-    	List<Integer> others = new ArrayList();
+    	List<Integer> others = new ArrayList<Integer>();
     	for(Integer item:all) {
     		if(!someSet.contains(item)) {
     			others.add(item);
@@ -67,8 +67,6 @@ public class U3L04 extends GenBase {
         this.context.put("otherFirst", values.get(others.get(0)));
         this.context.put("otherSecond", values.get(others.get(1)));
         this.context.put("only", values.get(only));
-        this.context.put("seven", Names.randomName().toLowerCase());
-        this.context.put("eight", Names.randomName().toLowerCase());
         this.context.put("ClassName", this.genMetaList.get(defaultPosition).getName());
         this.context.put("package", this.genMetaList.get(defaultPosition).getPakage());
         merge( null);
