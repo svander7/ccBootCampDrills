@@ -1,10 +1,10 @@
 package $package;
 
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
-import java.util.Scanner;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,10 +12,21 @@ class $ClassName {
 
 	@Test
 	void testU3L07() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
+    	LocalDateTime tenSecondsFromNow = LocalDateTime.now().plus(10, ChronoUnit.SECONDS);
+		int i = 0;
 		
-		assertTrue(Integer.class.isInstance($one));
-		assertEquals(minInt, Integer.MIN_VALUE);
+		// If you are given the following code that tests whether 10 seconds is up:
+		//   LocalDateTime.now().isBefore(tenSecondsFromNow)
+		// then ...
+		//   Use this line of code, and write a while statement below, that increments `i` until 10 seconds is up
+
+
+
+
+
+		System.out.println(i); // Was 73 million on my box!
+		assertTrue(i>1000000);
 	}
+
 
 }

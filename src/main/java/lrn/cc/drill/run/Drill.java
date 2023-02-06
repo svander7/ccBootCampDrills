@@ -8,10 +8,9 @@ import lrn.cc.drill.service.Lessons;
 
 public class Drill {
 	public void generate(String lesson) {
-		System.out.println("Generating " + lesson);
 		String className = "Drill" + lesson.toUpperCase() + "at" + StringUtils_.yyMMddHHmmPrint();
 		GenMeta genMeta = new GenMeta(lesson + ".java", "drill", "current", className, null, null, true);
-		String message = "Please refresh your project in eclipse and fix "+ className;
+		String message = "Generated " + className +"\n\nPlease refresh your project in eclipse and follow directions to make unit test pass ";
 		switch (lesson.toLowerCase().trim()) {
 		case "u2l03":
 			new U2L03(genMeta).generate(null);

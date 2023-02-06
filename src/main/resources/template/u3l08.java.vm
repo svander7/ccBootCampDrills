@@ -2,9 +2,6 @@ package $package;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import java.util.Scanner;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,10 +9,37 @@ class $ClassName {
 
 	@Test
 	void testU3L08() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
+		// This drill is loosely patterned after the code shown in Unit 3 Lesson 8
+		// Modifications were made primarily to make it unit-test-able
+		// To make tests pass, create the necessary WhileLoopExample class and methods,
+		// then, declare local integer variables as required
+		int k = 0;
+		WhileLoopExample whileLoopExample = new WhileLoopExample();
+		k =  whileLoopExample.incrementExample1(k);
+		assertEquals(10, k);
+		k = whileLoopExample.decrementExample1(k);
+		assertEquals(0, k);
+		whileLoopExample.incrementExample1(k++);
+		// Declare and assign value to $one
 		
-		assertTrue(Integer.class.isInstance($one));
-		assertEquals(minInt, Integer.MIN_VALUE);
+		
+		assertEquals($one, k);
+		whileLoopExample.decrementExample1(k--);
+		// Declare and assign value to $two
+		
+		
+		assertEquals($two, k);
+		whileLoopExample.incrementExample1(++k);
+		// Declare and assign value to $three
+		
+		
+		assertEquals($three, k);
+		whileLoopExample.incrementExample1(--k);
+		// Declare and assign value to $four
+		
+		
+		assertEquals($four, k);
+		
 	}
 
 }

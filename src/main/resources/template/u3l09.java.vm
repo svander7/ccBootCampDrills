@@ -1,21 +1,61 @@
 package $package;
 
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.Scanner;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import org.junit.jupiter.api.Test;
 
 class $ClassName {
 
+	// Declare and instantiate Random class here for use by generateRandomNumberBetweenMinusOneAndSeventyThree()
+	
+	
+
+	private int generateRandomNumberBetweenMinusOneAndSeventyThree() {
+		// Write the code for this method.
+		
+	}
+	
+	
+	
+	// CHANGE NOTHING BELOW THIS LINE
+	// ---------------------------------------------------------------------------------------------------------
+	// RUN THIS TEST:
+
 	@Test
 	void testU3L09() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
-		
-		assertTrue(Integer.class.isInstance($one));
-		assertEquals(minInt, Integer.MIN_VALUE);
+		// You ARE NOT expected to understand all of the code in this test itself
+		// - as it has not been covered yet in the lessons
+		Set<Integer> set = new HashSet<Integer>();
+		int i = 0;
+		while (i < 10000000) {
+			set.add(generateRandomNumberBetweenMinusOneAndSeventyThree());
+			i++;
+		}
+		assertTrue(containsEveryNumber(set));
+	}
+
+	// You are not expected to understand or touch this method
+	boolean containsEveryNumber(Set<Integer> numberSet) {
+		boolean containsEveryNumber = true;
+		List<Integer> list = numberSet.stream().toList();
+		for (int i : list) {
+			System.out.println(i);
+		}
+		containsEveryNumber = (0 == list.get(0));
+		if (containsEveryNumber == false) {
+			System.err.println("Did not start with 0.");
+			return false;
+		}
+		containsEveryNumber = (list.size() == 73);
+		if (containsEveryNumber == false) {
+			System.err.println("Did not include 73 numbers.");
+			return false;
+		}
+		return containsEveryNumber;
 	}
 
 }
