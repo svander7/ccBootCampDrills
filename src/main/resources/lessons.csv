@@ -3,10 +3,6 @@ U2L04,longs,110,6
 U2L05,double,110,6
 U2L06,boolean,110,6
 U2L07,String,110,6
-U2L09,if,110,6
-U2L10,elseif,110,6
-U2L11,equals,110,6
-U2L12,scanner,110,6
 U3L01,objects,110,6
 U3L03,dotProp,110,6
 U3L04,methods,110,6
@@ -16,3 +12,4 @@ U3L07,while,110,6
 U3L08,increment,110,6
 U3L09,random,110,6
 U3L10,constructor,110,6
+U5L01,static,110,8

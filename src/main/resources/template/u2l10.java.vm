@@ -9,7 +9,7 @@ class $ClassName {
 
 	@Test
 	void testU2L10() {
-		 DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
+		 // DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
 		
 		if ($one) {
 			fail("Nope, not " + $one);

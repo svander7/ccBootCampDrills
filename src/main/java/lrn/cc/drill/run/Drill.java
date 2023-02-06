@@ -27,18 +27,6 @@ public class Drill {
 		case "u2l07":
 			new U2L07(genMeta).generate(null);
 			break;
-		case "u2l09":
-			new U2L09(genMeta).generate(null);
-			break;
-		case "u2l10":
-			new U2L10(genMeta).generate(null);
-			break;
-		case "u2l11":
-			new U2L11(genMeta).generate(null);
-			break;
-		case "u2l12":
-			new U2L12(genMeta).generate(null);
-			break;
 		case "u3l01":
 			new U3L01(genMeta).generate(null);
 			break;
