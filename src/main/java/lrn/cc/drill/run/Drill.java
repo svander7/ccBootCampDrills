@@ -10,7 +10,7 @@ public class Drill {
 	public void generate(String lesson) {
 		String className = "Drill" + lesson.toUpperCase() + "at" + StringUtils_.yyMMddHHmmPrint();
 		GenMeta genMeta = new GenMeta(lesson + ".java", "drill", "current", className, null, null, true);
-		String message = "Generated " + className +"\n\nPlease refresh your project in eclipse and follow directions to make unit test pass ";
+		String message = "Generated " + className +"\n\nPlease [if you are using Eclipse first refresh your project  and] follow directions, to make unit test pass ";
 		switch (lesson.toLowerCase().trim()) {
 		case "u2l03":
 			new U2L03(genMeta).generate(null);
@@ -55,7 +55,7 @@ public class Drill {
 			new U3L10(genMeta).generate(null);
 			break;
 		default:
-			message = "Couldn't figure out what you wanted to do?\n " + lesson + " is not a lesson";
+			message = "Couldn't figure out what you wanted to do?\n " + lesson + " is not a lesson. Did you type the letter o for a zero, for instance?";
 		}
         System.out.println(message);
 	}

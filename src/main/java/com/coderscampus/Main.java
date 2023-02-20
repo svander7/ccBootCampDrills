@@ -1,4 +1,4 @@
-package lrn.cc.drill;
+package com.coderscampus;
 
 import lrn.cc.drill.run.App;
 
