@@ -13,8 +13,8 @@ class $ClassName {
 
 	@Test
 	void testU2L05() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
-		
+		// https://resources.coderscampus.com/docs/drills/U2L05/ for more detailed instructions
+
 		assertEquals(7 / 21, $one);
 		assertEquals(7D / 21D, $two);
 		assertEquals($three / $four, $five); // declare $three as double of 3, 4 or 5.

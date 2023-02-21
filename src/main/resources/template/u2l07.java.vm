@@ -12,12 +12,13 @@ class $ClassName {
 
 	@Test
 	void testU2L07() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
+		// https://resources.coderscampus.com/docs/drills/U2L07/ for detailed instructions
+
 		String $four = "Every good boy does fine";
 		String $six = "I went up the hill 19 times";
 		String $eight = " times";
-		
-		
+
+
 // This one is much more important than others wish I could think of more and better tests
 
 		assertEquals(195, charOne + charTwo);

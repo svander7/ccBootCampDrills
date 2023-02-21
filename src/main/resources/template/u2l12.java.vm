@@ -12,8 +12,8 @@ class $ClassName {
 
 	@Test
 	void testU2L12() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
-		
+		// https://resources.coderscampus.com/docs/drills/U2L12/ for detailed instructions
+
 		assertTrue(Integer.class.isInstance($one));
 		assertEquals(minInt, Integer.MIN_VALUE);
 	}

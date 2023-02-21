@@ -12,9 +12,11 @@ class $ClassName {
 
 	@Test
 	void testU3L07() {
+		// https://resources.coderscampus.com/docs/drills/U3L07/ for detailed instructions
+
     	LocalDateTime tenSecondsFromNow = LocalDateTime.now().plus(10, ChronoUnit.SECONDS);
 		int i = 0;
-		
+
 		// If you are given the following code that tests whether 10 seconds is up:
 		//   LocalDateTime.now().isBefore(tenSecondsFromNow)
 		// then ...

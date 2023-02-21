@@ -12,13 +12,13 @@ class $ClassName {
 
 	@Test
 	void testU2L06() {
-		// DECLARE MISSING VARIABLES, AS NECESSARY TO make the lines below pass the test
+		// https://resources.coderscampus.com/docs/drills/U2L06/ for detailed instructions
 		boolean $two = true & true & true;
 		boolean $four = true & true & false;
 		boolean $six = false | true;
 		boolean $eight = 24 * 3 - 17 == 42;
-		
-		
+
+
 //		assertEquals($one, $two);
 //		assertEquals($three, $four);
 //		assertEquals($five, $six);

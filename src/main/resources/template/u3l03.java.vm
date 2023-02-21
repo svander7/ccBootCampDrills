@@ -12,16 +12,16 @@ class $ClassName {
 
 	@Test
 	void testU3L03() {
-		// Create the "blueprints" to make this next section of code compile and pass the test
+		// https://resources.coderscampus.com/docs/drills/U3L03/ for detailed instructions
 		${upperOne} ${one} = new ${upperOne}();
 		${one}.${two} = "${three}";
 		${one}.${four} = ${five};
-		
-		
+
+
 		// DECLARE VARIABLES, AS NECESSARY TO make the lines below pass the test
 		assertEquals(${one}.${two}, ${eight});
 		assertEquals(${one}.${four}, this.${seven});
-		
+
 	}
 
 }

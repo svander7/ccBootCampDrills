@@ -12,8 +12,8 @@ class $ClassName {
 
 	@Test
 	void testU2L11() {
-		// DECLARE VARIABLES HERE, AS NECESSARY TO make the lines below pass the test
-		
+		// https://resources.coderscampus.com/docs/drills/U2L11/ for detailed instructions
+
 		int $one = 17 * 32;
 		String $two = "Every good boy is " + $one;
 		String $three = ""; // fill this in here

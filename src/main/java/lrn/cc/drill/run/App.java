@@ -16,7 +16,7 @@ import lrn.cc.drill.service.Lessons;
 public class App {
 	public void launch() {
 		Scanner scanner = new Scanner(System.in); // not closed because short lived app
-		System.out.println("Do you wish me to open browser to help? \n 'y' for yes, else enter for no");
+		System.out.println("Do you wish me to open browser to help with this specific lesson? \n 'y' for yes, else enter for no");
 		Boolean help = scanner.nextLine().toLowerCase().startsWith("y");
 		String list = new Lessons().print();
 		System.out.println(list);

@@ -9,6 +9,7 @@ class $ClassName {
 
 	@Test
 	void testU3L04() {
+		// https://resources.coderscampus.com/docs/drills/U3L04/ for detailed instructions
 		// All code required is external to this $ClassName
 		// Create the "blueprints" to make this next section of code compile and pass the test
 		${upperClass} ${aClass} = new ${upperClass}();
