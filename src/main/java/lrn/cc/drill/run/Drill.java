@@ -54,6 +54,12 @@ public class Drill {
 		case "u3l10":
 			new U3L10(genMeta).generate(null);
 			break;
+		case "u5l01":
+			new U5L01(genMeta).generate(null);
+			break;
+		case "u5l03":
+			new U5L03(genMeta).generate(null);
+			break;
 		default:
 			message = "Couldn't figure out what you wanted to do?\n " + lesson + " is not a lesson. Did you type the letter o for a zero, for instance?";
 		}

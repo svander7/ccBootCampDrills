@@ -40,6 +40,9 @@ public class App {
 		Path sourceDir = Paths.get("src/test/java/lrn/cc/drill/current");
 		Path destinationDir = Paths.get("completedDrills");
 		try (DirectoryStream<Path> directoryStream = Files.newDirectoryStream(sourceDir)) {
+			if(!Files.exists(destinationDir)) {
+				Files.createDirectory(destinationDir);
+			}
 			for (Path path : directoryStream) {
 				Path d2 = destinationDir.resolve(path.getFileName());
 				Files.move(path, d2, StandardCopyOption.REPLACE_EXISTING);
