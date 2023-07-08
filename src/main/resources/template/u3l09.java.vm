@@ -15,7 +15,7 @@ class $ClassName {
 
 
 
-	private int generateRandomNumberBetweenMinusOneAndSeventyThree() {
+	private int generateRandomNumberBetweenMinusOneAndSeventyFour() {
 		// Write the code for this method.
 
 	}
@@ -42,7 +42,7 @@ class $ClassName {
 	// You are not expected to understand or touch this method
 	boolean containsEveryNumber(Set<Integer> numberSet) {
 		boolean containsEveryNumber = true;
-		List<Integer> list = numberSet.stream().toList();
+		List<Integer> list = numberSet.stream().collect(Collectors.toList());
 		for (int i : list) {
 			System.out.println(i);
 		}
