@@ -12,3 +12,6 @@ buildNumber.properties
 completedDrills/*.java
 src/test/java/lrn/cc/drill/current/
 src/test/java/lrn/cc/drill/dev/
+.classpath
+.project
+.settings/
