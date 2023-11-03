@@ -3,8 +3,22 @@ package lrn.cc.drill.run;
 import com.coderscampus.generator.domain.GenMeta;
 import com.coderscampus.generator.util.StringUtils_;
 
-import lrn.cc.drill.lesson.*;
-import lrn.cc.drill.service.Lessons;
+import lrn.cc.drill.lesson.U2L03;
+import lrn.cc.drill.lesson.U2L04;
+import lrn.cc.drill.lesson.U2L05;
+import lrn.cc.drill.lesson.U2L06;
+import lrn.cc.drill.lesson.U2L07;
+import lrn.cc.drill.lesson.U3L01;
+import lrn.cc.drill.lesson.U3L03;
+import lrn.cc.drill.lesson.U3L04;
+import lrn.cc.drill.lesson.U3L05;
+import lrn.cc.drill.lesson.U3L06;
+import lrn.cc.drill.lesson.U3L07;
+import lrn.cc.drill.lesson.U3L08;
+import lrn.cc.drill.lesson.U3L09;
+import lrn.cc.drill.lesson.U3L10;
+import lrn.cc.drill.lesson.U5L01;
+import lrn.cc.drill.lesson.U5L03;
 
 public class Drill {
 	public void generate(String lesson) {

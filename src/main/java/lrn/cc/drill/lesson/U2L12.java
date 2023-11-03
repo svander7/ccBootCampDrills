@@ -1,7 +1,6 @@
 package lrn.cc.drill.lesson;
 
 import java.io.StringWriter;
-import java.util.List;
 
 import com.coderscampus.generator.domain.GenMeta;
 import com.coderscampus.generator.service.GenBase;

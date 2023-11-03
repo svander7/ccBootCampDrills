@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.junit.jupiter.api.Test;
 
@@ -33,7 +34,7 @@ class $ClassName {
 		Set<Integer> set = new HashSet<Integer>();
 		int i = 0;
 		while (i < 10000000) {
-			set.add(generateRandomNumberBetweenMinusOneAndSeventyThree());
+			set.add(generateRandomNumberBetweenMinusOneAndSeventyFour());
 			i++;
 		}
 		assertTrue(containsEveryNumber(set));
@@ -51,9 +52,9 @@ class $ClassName {
 			System.err.println("Did not start with 0.");
 			return false;
 		}
-		containsEveryNumber = (list.size() == 73);
+		containsEveryNumber = (list.size() == 74);
 		if (containsEveryNumber == false) {
-			System.err.println("Did not include 73 numbers.");
+			System.err.println("Did not include 74 numbers. Found "+ list.size());
 			return false;
 		}
 		return containsEveryNumber;
