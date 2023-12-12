@@ -1,0 +1,28 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU3L04() {
+		// https://resources.coderscampus.com/docs/drills/U3L04/ for detailed instructions
+		// All code required is external to this $ClassName
+		// Create the "blueprints" to make this next section of code compile and pass the test
+		${upperClass} ${aClass} = new ${upperClass}();
+		${aClass}.${one} = "${oneValue}";
+		${aClass}.${two} = "${twoValue}";
+		${aClass}.${three} = "${threeValue}";
+		${aClass}.${four} = "${fourValue}";
+		${aClass}.${five} = "${fiveValue}";
+		assertTrue(${aClass}.getSomeInfo().contains("${someFirst}"));
+		assertTrue(${aClass}.getSomeInfo().contains("${someSecond}"));
+		assertTrue(${aClass}.getSomeInfo().contains("${someThird}"));
+		assertTrue(${aClass}.getOtherInfo().contains("${otherFirst}"));
+		assertTrue(${aClass}.getOtherInfo().contains("${otherSecond}"));
+		assertTrue(${aClass}.getOnly().contains("${only}"));
+	}
+}

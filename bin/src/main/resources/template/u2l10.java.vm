@@ -1,0 +1,31 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L10() {
+		// https://resources.coderscampus.com/docs/drills/U2L10/ for detailed instructions
+
+		if ($one) {
+			fail("Nope, not " + $one);
+		} else if ($two) {
+			fail("Nope, not " + $two);
+		} else if ($three) {
+			if( !$five ) {
+				System.out.println("Yes, $three is " + $three + " among other facts");
+			} else {
+				fail( "Still one more thing to fix.");
+			}
+		} else if ($four) {
+			fail("Nope, $four not " + $four);
+		} else {
+			fail("Nope, not any of these were declared properly");
+		}
+	}
+
+}

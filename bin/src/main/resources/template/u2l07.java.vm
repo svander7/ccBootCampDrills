@@ -1,0 +1,32 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L07() {
+		// https://resources.coderscampus.com/docs/drills/U2L07/ for detailed instructions
+
+		String $four = "Every good boy does fine";
+		String $six = "I went up the hill 19 times";
+		String $eight = " times";
+
+
+// This one is much more important than others wish I could think of more and better tests
+
+		assertEquals(195, charOne + charTwo);
+		assertTrue(String.class.isInstance($one));
+		assertEquals(7, ${two}.length());
+		assertEquals(18, ${three}.length());
+		assertEquals($four, $five + "fine");
+		assertEquals($six, $seven + 19 + $eight);
+	}
+
+}

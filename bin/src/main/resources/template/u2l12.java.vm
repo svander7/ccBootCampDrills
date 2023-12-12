@@ -1,0 +1,21 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L12() {
+		// https://resources.coderscampus.com/docs/drills/U2L12/ for detailed instructions
+
+		assertTrue(Integer.class.isInstance($one));
+		assertEquals(minInt, Integer.MIN_VALUE);
+	}
+
+}

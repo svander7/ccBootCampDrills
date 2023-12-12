@@ -1,0 +1,24 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L11() {
+		// https://resources.coderscampus.com/docs/drills/U2L11/ for detailed instructions
+
+		int $one = 17 * 32;
+		String $two = "Every good boy is " + $one;
+		String $three = ""; // fill this in here
+		assertTrue($one==$four);
+		assertTrue( //create a statement here that String $two declared above is an identical or equal string to the $three String variable declared above );
+	}
+
+}

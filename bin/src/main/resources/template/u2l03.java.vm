@@ -1,0 +1,24 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L03int() {
+		// https://resources.coderscampus.com/docs/drills/U2L03/ for more detailed instructions
+
+		assertTrue(Integer.class.isInstance($one));
+		assertEquals(minInt, Integer.MIN_VALUE);
+		assertEquals(maxInt, Integer.MAX_VALUE);
+		assertEquals(15, $two * $three);
+		assertEquals(54, $four - $five);
+	}
+
+}

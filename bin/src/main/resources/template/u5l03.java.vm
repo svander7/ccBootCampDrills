@@ -1,0 +1,45 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+	// this test introduces the final modifier but in this context it should not affect your work
+	@Test
+	void testU5L03() {
+		// https://resources.coderscampus.com/docs/drills/U2L09/ for detailed instructions
+		put this in a separate class
+		private final int TOO_YOUNG = ...
+		private final int TOO OLD = ...
+		public final String TOO_OLD_MESSAGE = "You are too old";
+		public final String TOO_YOUNG_MESSAGE = "You are too young";
+		
+		
+		private int age = ...
+		
+		private 
+		
+		private boolean isTheRightAge(){
+			// you must code this
+		}
+		
+		public void setAge (int age) {
+			// your code must go here
+		}
+		
+		then provide a series of tests which test if is right age and also test if the message received is the right message
+		private 
+//		int $one = 19;
+//		if($one >= $two ) {
+//			fail("Wrong guess on " + $two);
+//		}else {
+//			System.out.println("Success");
+//		}
+	}
+
+}

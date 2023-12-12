@@ -1,0 +1,30 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L05() {
+		// https://resources.coderscampus.com/docs/drills/U2L05/ for more detailed instructions
+
+		assertEquals(7 / 21, $one);
+		assertEquals(7D / 21D, $two);
+		assertEquals($three / $four, $five); // declare $three as double of 3, 4 or 5.
+		// Declare $four as double of 28, 29, or 30 etc but less than 37
+		// Declare $five as a double value;
+		assertTrue(Double.class.isInstance(...)); // replace `...` using the d or D suffix
+		assertTrue(!Float.class.isInstance(...)); // replace `...` using the d or D suffix
+		assertTrue(Float.class.isInstance(...)); // replace `...` using the f or F suffix
+		assertFalse($nine); // declare $nine as true if a float or a double should be used for money values,
+							// else declare as false
+	}
+
+}

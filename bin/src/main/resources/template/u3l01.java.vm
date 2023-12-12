@@ -1,0 +1,31 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU3L01() {
+		// https://resources.coderscampus.com/docs/drills/U3L01/ for detailed instructions
+
+		${upperOne} ${one} = new ${upperOne}();
+		${upperSeven} ${seven} = new ${upperSeven}();
+		${upperEight} ${eight} = new ${upperEight}();
+		assertTrue(${one} instanceof ${upperOne});
+		assertTrue(${seven} instanceof ${upperSeven});
+		assertTrue(${eight} instanceof ${upperEight});
+
+
+
+		// "this" below is this test class that you are coding inside of right now
+		// Add properties to this class to make the code compile and pass the test
+		assertEquals(${four}, this.${three});
+		assertEquals("${four}", this.${two});
+		assertEquals(${five}, this.${six});
+	}
+
+}

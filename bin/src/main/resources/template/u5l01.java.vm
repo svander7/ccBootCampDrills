@@ -1,0 +1,34 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	static int staticVariable = 3;
+	int instanceVariable = 3;
+
+
+	@Test
+	void testU3L10() {
+		// https://resources.coderscampus.com/docs/drills/U5L01/ for detailed instructions
+
+		assertEquals(staticVariable, instanceVariable);
+		${ClassName} instanceOne = new ${ClassName}();
+		${ClassName} instanceTwo = new ${ClassName}();
+		assertEquals(staticVariable, instanceOne.instanceVariable);
+		assertEquals(staticVariable, instanceTwo.instanceVariable);
+		// Declare and initialize variables for `$one`, `$two`, and `$three` below to make all tests pass
+
+		assertEquals(${ClassName}.staticVariable, staticVariable + $one);
+		${ClassName}.staticVariable = $four;
+		instanceOne.instanceVariable = $five;
+		instanceTwo.instanceVariable = $six;
+		assertEquals(staticVariable, instanceOne.instanceVariable + $two);
+		assertEquals(${ClassName}.staticVariable, instanceTwo.instanceVariable + $three);
+	}
+
+}

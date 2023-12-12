@@ -1,0 +1,26 @@
+package $package;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU2L04long() {
+		// https://resources.coderscampus.com/docs/drills/U2L04/ for more detailed instructions
+
+		assertEquals(Integer.MIN_VALUE, Integer.MAX_VALUE + $one); // this one might not be obvious if you didn't pay attention to Trevor's video lesson!
+		assertTrue(Long.class.isInstance($three));
+		assertTrue(Long.class.isInstance(...)); // Replace ... with  literal long - a number that java understands as long and not an int
+		assertEquals(minLong, Long.MIN_VALUE);
+		assertEquals(maxLong, Integer.MAX_VALUE);
+		assertEquals(12_345_678_901L, $two); // this one also might not be obvious if you didn't pay attention to Trevor's video lesson!
+		assertEquals(54L, $five - $six);
+	}
+
+}

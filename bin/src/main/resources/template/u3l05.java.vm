@@ -1,0 +1,38 @@
+package $package;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
+
+class $ClassName {
+
+	@Test
+	void testU3L05() {
+		// https://resources.coderscampus.com/docs/drills/U3L05/ for detailed instructions
+		// All code required is external to this $ClassName
+		// Create the "blueprints" to make this next section of code compile and pass the test
+
+		${upperClass} ${aClass} = new ${upperClass}();
+		${aClass}.${one} = "${oneValue}";
+		${aClass}.${two} = "${twoValue}";
+		${aClass}.${three} = "${threeValue}";
+		${aClass}.${four} = "${fourValue}";
+		${aClass}.${five} = "${fiveValue}";
+
+		assertTrue(${aClass}.getSomeInfo().contains("${someFirst}"));
+		assertTrue(${aClass}.getSomeInfo().contains("${someSecond}"));
+		assertTrue(${aClass}.getSomeInfo().contains("${someThird}"));
+		assertTrue(${aClass}.getOtherInfo().contains("${otherFirst}"));
+		assertTrue(${aClass}.getOtherInfo().contains("${otherSecond}"));
+		assertTrue(${aClass}.getOnly().contains("${only}"));
+		// Above is identical to previous U3L04 Drills
+
+		// Below is new to this drill, and changes some of the values set above
+		${aClass}.changeSomeProperties("${someMoreOne}", "${someMoreTwo}", "${someMoreThree}"); // These 3 arguments are the same properties tested above as returned by getSomeInfo();
+		assertTrue(${aClass}.getSomeInfo().contains("${someMoreOne}"));
+		assertTrue(${aClass}.getSomeInfo().contains("${someMoreTwo}"));
+		assertTrue(${aClass}.getSomeInfo().contains("${someMoreThree}"));
+		assertTrue(${aClass}.getOtherInfo().contains("${otherFirst}"));
+		assertTrue(${aClass}.getOtherInfo().contains("${otherSecond}"));
+	}
+
+}
